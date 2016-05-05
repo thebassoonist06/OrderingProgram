@@ -1,0 +1,26 @@
+///////////////////////////////////////////////////
+//
+// Author: Sydney Lyon
+// Updated: 5/5/2016
+// Purpose: Creates Main Panel for ordering program
+// Users should be able to select between starting
+// a new order searching an old order and closing
+// the program.
+//
+////////////////////////////////////////////////////
+
+import javax.swing.JPanel;
+import java.awt.Color;
+
+public class MainPanel extends JPanel{
+
+    
+
+    public MainPanel(){
+
+	this.setBackground(new Color(100, 100, 100));
+	//this.setFocasable(true);
+
+    }
+
+}
